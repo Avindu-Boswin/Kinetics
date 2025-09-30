@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+.bg-HeroImage {
+  /* default to the large image (will be used on lg+ via media query override below) */
+  background-image: url('/src/assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Use the medium (smaller) hero image on screens smaller than Tailwind's lg breakpoint (<=1023px) */
+@media (max-width: 1278px) {
+  .bg-HeroImage {
+    background-image: url('/src/assets/bg-md.png');
+  }
+}
+
+@media (max-width: 600px) {
+  .bg-HeroImage {
+    background-image: url('/src/assets/bg-sm.png');
+  }
+}
+
+/* prevent accidental horizontal overflow on small screens */
+html, body, #root {
+  overflow-x: hidden;
+}
