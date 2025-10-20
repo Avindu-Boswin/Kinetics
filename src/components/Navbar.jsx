@@ -28,7 +28,7 @@ function Navbar() {
                 }}
                 aria-label="Kinetics home"
             >
-                <img src={MobileLogo} alt="Kinetics Logo" className='h-[90%] mt-1 ml-7 md:hidden' />
+                <img src={MobileLogo} alt="Kinetics Logo" className='h-[75%] mt-2 ml-7 md:hidden' />
             </a>
 
             <a
@@ -39,7 +39,7 @@ function Navbar() {
                 }}
                 aria-label="Kinetics home"
             >
-                <img src={Logo} alt="Kinetics Logo" className='h-full ml-10 hidden md:block' />
+                <img src={Logo} alt="Kinetics Logo" className='h-[80%] ml-10 mt-[5px] hidden md:block' />
             </a>
 
             <div className='flex items-center ml-auto mr-10'>
