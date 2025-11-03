@@ -227,8 +227,8 @@ export default function AboutDetails() {
 
           <motion.div variants={fadeUp} className="lg:col-span-6">
             <span className="text-sm md:text-base tracking-[0.2em] uppercase font-semibold" style={{ color: theme.electricBlue }}>Bright future</span>
-            <h2 className="mt-4 text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight" style={{ color: theme.deepCharcoal }}>
-              Dare to Go Electric
+            <h2 className="mt-4 text-4xl md:text-5xl xl:text-6xl font-semibold leading-tight" style={{ color: theme.deepCharcoal }}>
+              Dare to Go <span className="text-shadow-white">Electric</span>
             </h2>
             <p className="mt-6 text-gray-300 max-w-2xl text-base md:text-lg">
               The future belongs to those who dare to change. Save on fuel, cut emissions, and enjoy a modern driving experience. Our fast, dependable chargers make the switch effortless — built for today and the next generation.

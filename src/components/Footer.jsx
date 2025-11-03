@@ -29,7 +29,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Headline */}
         <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight">
+          <h2 className="text-2xl md:text-4xl xl:text-5xl font-semibold leading-tight">
             <span style={{ color: theme.electricBlue }}>Let’s</span> charge ahead together
             <br /> toward a cleaner <span style={{ color: theme.electricBlue }}>tomorrow</span>
           </h2>

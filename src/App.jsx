@@ -9,6 +9,7 @@ import Network from './components/Network';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AppPromo from './components/AppPromo';
+import CarModel from './components/CarModel';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <AboutDetails />
       <AppPromo />
       <Network />
+      <CarModel />
       <Contact />
       <Footer />
     </>

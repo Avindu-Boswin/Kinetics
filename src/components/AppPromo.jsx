@@ -7,7 +7,6 @@ import Mockup from "../assets/Kinetics Presentation.png"
 
 // Optional: pass your mockup image via props. If not provided, we'll render a placeholder frame.
 export default function AppPromo({
-  title = "Charge smarter with the KINETICS app",
   subtitle = "Find chargers, start sessions, and track your EV costs — all in one, fast app.",
   bulletPoints = [
     "Real‑time charger availability",
@@ -43,8 +42,8 @@ export default function AppPromo({
             <span className="text-sm md:text-base tracking-[0.18em] uppercase font-semibold" style={{ color: theme.electricBlue }}>
               Mobile app
             </span>
-            <h2 className="mt-3 text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight" style={{ color: theme.deepCharcoal }}>
-              {title}
+            <h2 className="mt-3 text-4xl md:text-5xl xl:text-6xl font-semibold leading-tight" style={{ color: theme.deepCharcoal }}>
+              Charge smarter with the <span className="text-white">KINETICS</span> app
             </h2>
             <p className="mt-5 text-gray-300 text-base md:text-lg max-w-2xl mx-auto lg:mx-0">
               {subtitle}

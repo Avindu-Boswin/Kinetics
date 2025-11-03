@@ -124,7 +124,7 @@ export default function Network() {
               className="mt-4 text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight"
               style={{ color: theme.deepCharcoal }}
             >
-              Find the right charger for your journey
+              Find the <span className="text-white">right charger</span> for your journey
             </h3>
             <p className="mt-6 text-gray-300 max-w-2xl text-base md:text-lg">
               Discover the convenience of Sri Lanka's first EV charging network designed to keep you powered wherever life takes you. Whether it's your daily commute, a weekend getaway, or a long road trip, you can find chargers at destinations that matter most.

@@ -46,7 +46,7 @@ function About() {
     return (
         <section className=" bg-[#00070f]  pt-10 sm:pt-20 md:pt-30 xl:pt-40" id="about">
             <section className="py-14 px-8 md:px-24 max-w-[1920px] mx-auto">
-                <h2 className="text-4xl xl:text-6xl font-semibold text-white mb-20" data-aos="fade-down" data-aos-delay="80" data-aos-duration="800">
+                <h2 className="text-4xl md:text-5xl xl:text-6xl font-semibold text-white mb-20" data-aos="fade-down" data-aos-delay="80" data-aos-duration="800">
                     Why Choosing Us
                 </h2>
 
